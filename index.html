@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        background: #f0f0f0;
+        padding: 20px;
+        justify-content: center;
+    }
+    .image-container {
+        margin: 10px;
+        width: 45%; /* две картинки в ряд на маленьких экранах */
+    }
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .description {
+        text-align: center;
+        margin-top: 5px;
+    }
+    @media screen and (min-width: 768px) {
+        .image-container {
+            width: 45%; /* две картинки в ряд на средних экранах */
+        }
+    }
+</style>
+</head>
+<body>
+
+<!-- Пример картинок и описаний, дублируйте контейнер для нужного количества картинок -->
+<div class="image-container">
+    <img src="images/2024-06-09 16.46.29.jpg" alt="описание изображения1">
+    <p class="description">Arsen</p>
+</div>
+<div class="image-container">
+    <img src="images/2024-06-09 16.46.29.jpg" alt="описание изображения2">
+    <p class="-description">Arsen 2</p>
+</div>
+</div>
+<div class="image-container">
+    <img src="images/2024-06-09 16.46.29.jpg" alt="описание изображения2">
+    <p class="-description">Arsen 3</p>
+</div>
+</div>
+<div class="image-container">
+    <img src="images/2024-06-09 16.46.29.jpg" alt="описание изображения2">
+    <p class="-description">Arsen 4</p>
+</div>
+
+
+<!-- Повторите блоки для всех 23 картинок -->
+
+</body>
+</html>
